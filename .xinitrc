@@ -5,6 +5,9 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
+# Export UPM_HOME for Universal Password Manager:
+export UPM_HOME="/home/domin/upm/upm"
+
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
