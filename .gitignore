@@ -6,6 +6,7 @@
 !.gitconfig
 !.xinitrc
 !.Xresources
+!.archey3.cfg
 
 # Even if they are in sub-dirs:
 !*/
