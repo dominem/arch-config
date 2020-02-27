@@ -8,6 +8,9 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # Export UPM_HOME for Universal Password Manager:
 export UPM_HOME="/home/domin/upm/upm"
 
+# Add ~/.xbin dir (with binaries for X) to the $PATH:
+export PATH="${PATH}:~/.xbin"
+
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
