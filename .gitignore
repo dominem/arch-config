@@ -11,5 +11,7 @@
 !*/
 
 !.config/awesome/*
+!.config/fontconfig/*
+!.config/fontconfig/conf.d/*
 
 journal/
