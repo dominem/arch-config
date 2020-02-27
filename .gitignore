@@ -1,0 +1,14 @@
+# Ignore everything:
+*
+
+# But not these:
+!.gitignore
+!.xinitrc
+!.Xresources
+
+# Even if they are in sub-dirs:
+!*/
+
+!.config/awesome/*
+
+journal/
