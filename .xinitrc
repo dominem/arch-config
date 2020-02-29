@@ -14,6 +14,9 @@ export PATH="${PATH}:~/.xbin"
 # Setup font's hinting for Java apps (e.g. UPM):
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp'
 
+# Setup default editor:
+export EDITOR=vim
+
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
