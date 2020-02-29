@@ -11,6 +11,9 @@ export UPM_HOME="/home/domin/upm/upm"
 # Add ~/.xbin dir (with binaries for X) to the $PATH:
 export PATH="${PATH}:~/.xbin"
 
+# Setup font's hinting for Java apps (e.g. UPM):
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp'
+
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
