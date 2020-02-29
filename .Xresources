@@ -1,7 +1,7 @@
 XTerm.vt100.locale: true
 XTerm.vt100.saveLines: 4096
 XTerm.vt100.faceName: mono
-XTerm.vt100.faceSize: 12
+XTerm.vt100.faceSize: 10
 XTerm.vt100.renderFont: true
 XTerm.vt100.background: #292929
 XTerm.vt100.foreground: white
