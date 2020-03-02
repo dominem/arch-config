@@ -12,7 +12,7 @@ theme.wallpaper = themes_path .. "zenburn/zenburn-background.png"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "cbo 10"
+theme.font      = "mono 9"
 
 -- {{{ Colors
 theme.fg_normal  = "#AAAAAA"
