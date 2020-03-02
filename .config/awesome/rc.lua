@@ -45,10 +45,10 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
---beautiful.init("/home/domin/.config/awesome/theme.lua")
+beautiful.init("/home/domin/.config/awesome/theme.lua")
 --beautiful.init(gears.filesystem.get_themes_dir() .. "zenburn/theme.lua")
 --beautiful.init(gears.filesystem.get_themes_dir() .. "sky/theme.lua")
-beautiful.init("/home/domin/.config/awesome/zenburn_theme.lua")
+--beautiful.init("/home/domin/.config/awesome/zenburn_theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "xterm"
