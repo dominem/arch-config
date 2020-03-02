@@ -12,29 +12,29 @@ theme.wallpaper = themes_path .. "zenburn/zenburn-background.png"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "terminus 8"
+theme.font      = "cbo 10"
 
 -- {{{ Colors
 theme.fg_normal  = "#AAAAAA"
 theme.fg_focus   = "#FFFFFF"
 theme.fg_urgent  = "#C9C9C9"
-theme.bg_normal  = "#000000"
-theme.bg_focus   = "#000000"
-theme.bg_urgent  = "#000000"
+theme.bg_normal  = "#222222"
+theme.bg_focus   = "#111111"
+theme.bg_urgent  = "#222222"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap   = dpi(4)
-theme.border_width  = dpi(1)
+theme.useless_gap   = dpi(8)
+theme.border_width  = dpi(2)
 theme.border_normal = "#AAAAAA"
 theme.border_focus  = "#FFFFFF"
 theme.border_marked = "#C9C9C9"
 -- }}}
 
 -- {{{ Titlebars
-theme.titlebar_bg_focus  = "#000000"
-theme.titlebar_bg_normal = "#000000"
+theme.titlebar_bg_focus  = "#222222"
+theme.titlebar_bg_normal = "#222222"
 -- }}}
 
 -- There are other variable sets
